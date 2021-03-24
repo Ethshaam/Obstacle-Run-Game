@@ -7,8 +7,15 @@ public class GameManager : MonoBehaviour
 {
     bool GameHasEnded = false;
 
-    public float RestartTime = 1f; 
+    public float RestartTime = 1f;
 
+
+    public GameObject completeLevelUI;
+
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
+    }
 
 
 
