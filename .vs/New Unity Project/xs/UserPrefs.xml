@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EndTrigger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelChange.cs">
     <Files>
       <File FileName="Assets/scripts/playermovement.cs" Line="33" Column="31" />
       <File FileName="Assets/scripts/FollowPlayer.cs" Line="17" Column="2" />
       <File FileName="Assets/ScoreNumber.cs" Line="15" Column="55" />
-      <File FileName="Assets/GameManager.cs" Line="13" Column="33" />
+      <File FileName="Assets/GameManager.cs" Line="21" Column="1" />
       <File FileName="Assets/scripts/PlayerCollision.cs" Line="18" Column="55" />
       <File FileName="Assets/EndTrigger.cs" Line="12" Column="37" />
+      <File FileName="Assets/LevelChange.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,6 +15,7 @@
           <Node name="New Unity Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="scripts" expanded="True" />
+              <Node name="LevelChange.cs" selected="True" />
             </Node>
           </Node>
         </State>

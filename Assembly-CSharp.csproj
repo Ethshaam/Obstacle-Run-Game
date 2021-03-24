@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\EndTrigger.cs" />
+    <Compile Include="Assets\LevelChange.cs" />
     <Compile Include="Assets\scripts\FollowPlayer.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
     <Compile Include="Assets\scripts\PlayerCollision.cs" />
