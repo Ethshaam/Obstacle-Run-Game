@@ -6,6 +6,13 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     bool GameHasEnded = false;
+
+    public float RestartTime = 1f; 
+
+
+
+
+
       public void EndGame()
     {
 
@@ -14,7 +21,7 @@ public class GameManager : MonoBehaviour
 
             GameHasEnded = true;
             Debug.Log("GAME OVER");
-            Restart();
+            Invoke("Restart", RestartTime);
             //restart the game 
 
         }
