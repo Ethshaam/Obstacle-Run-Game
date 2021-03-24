@@ -5,13 +5,18 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public playermovement movement;
+
+
+
+
    void OnCollisionEnter (Collision collisioninfo)
     {
 
         if (collisioninfo.collider.tag == "Obstacle")
         {
             movement.enabled = false;
-
+            FindObjectOfType<GameManager>().EndGame();
+            
         }
         
     }
