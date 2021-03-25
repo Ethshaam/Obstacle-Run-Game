@@ -30,7 +30,7 @@ public class playermovement : MonoBehaviour
         }
 
 
-        if(rb.position.y < 0)
+        if(rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame();
         }

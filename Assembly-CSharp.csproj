@@ -68,8 +68,11 @@
     <Compile Include="Assets\scripts\FollowPlayer.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
     <Compile Include="Assets\scripts\LevelChange.cs" />
+    <Compile Include="Assets\scripts\Menu.cs" />
     <Compile Include="Assets\scripts\PlayerCollision.cs" />
     <Compile Include="Assets\scripts\ScoreNumber.cs" />
+    <Compile Include="Assets\scripts\StartGame.cs" />
+    <Compile Include="Assets\scripts\credits.cs" />
     <Compile Include="Assets\scripts\playermovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/ethshaamul-hussan/Downloads/Brackeys-obstacle-training-main/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
