@@ -8,6 +8,7 @@ public class playermovement : MonoBehaviour
     //creating a float variable so I can edit it in the inspector. 
     public float forwardForce = 2000f;
     public float SidewaysForce = 500f;
+    public float downwardForce = 1000f;
     // Start is called before the first frame update
     public bool PlayerOnGround = true; 
 
@@ -30,14 +31,15 @@ public class playermovement : MonoBehaviour
         }
 
 
-        if(rb.position.y < -1f)
+
+        if (rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame();
         }
 
         //making the player jump
         if(Input.GetButtonDown("Jump") && PlayerOnGround){
-            rb.AddForce(new Vector3(0, 10, 0), ForceMode.Impulse);
+            rb.AddForce(new Vector3(0, 20, 0), ForceMode.Impulse);
             PlayerOnGround = false; 
         }
       

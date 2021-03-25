@@ -1213,6 +1213,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2053115623040652864, guid: 83c5a02a43c0e4da49a7b17f9f4f8c3b,
+        type: 3}
+      propertyPath: forwardForce
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2053115623040652867, guid: 83c5a02a43c0e4da49a7b17f9f4f8c3b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1272,6 +1277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053115623040652871, guid: 83c5a02a43c0e4da49a7b17f9f4f8c3b,
+        type: 3}
+      propertyPath: m_Mass
+      value: 3.18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83c5a02a43c0e4da49a7b17f9f4f8c3b, type: 3}
