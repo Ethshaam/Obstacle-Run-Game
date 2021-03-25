@@ -9,7 +9,7 @@ public class playermovement : MonoBehaviour
     public float forwardForce = 2000f;
     public float SidewaysForce = 500f;
     // Start is called before the first frame update
-
+    public bool PlayerOnGround = true; 
 
     // we marked this "fixed" update because we are using it to mess with physics
     void FixedUpdate()
@@ -35,6 +35,23 @@ public class playermovement : MonoBehaviour
             FindObjectOfType<GameManager>().EndGame();
         }
 
-       
+        //making the player jump
+        if(Input.GetButtonDown("Jump") && PlayerOnGround){
+            rb.AddForce(new Vector3(0, 10, 0), ForceMode.Impulse);
+            PlayerOnGround = false; 
+        }
+      
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            Debug.Log("jump");
+            PlayerOnGround = true;
+        }
+
+    }
+    
+
 }
+
