@@ -127,6 +127,8 @@ MonoBehaviour:
   rb: {fileID: 2053115623040652871}
   forwardForce: 8000
   SidewaysForce: 120
+  jump: 15
+  PlayerOnGround: 1
 --- !u!114 &2053115623040652865
 MonoBehaviour:
   m_ObjectHideFlags: 0
