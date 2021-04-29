@@ -19,7 +19,7 @@ public class playermovement : MonoBehaviour
     {
         //add a forward force
         
-       // rb.AddForce(0, 0, forwardForce * Time.deltaTime);
+       rb.AddForce(0, 0, forwardForce * Time.deltaTime);
        
         //ending the game if an object has been hit 
         if (rb.position.y < -1f)
